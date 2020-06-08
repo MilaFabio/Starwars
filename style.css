@@ -1,3 +1,35 @@
 body {
   background: #070506 url("/img/main-bg.png");
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.container {
+  width: 90%;
+  min-width: 1060px;
+  margin: auto;
+  border: 1px solid red;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+}
+.header__logo {
+  margin-right: 70px;
+}
+.nav__link {
+  color: #ffffff;
+  margin-right: 15px;
+}
+.hero__subtitle {
+  display: block;
+  margin-top: 78px;
+  font-family: Proxima Nova;
+  font-size: 40px;
+  line-height: 100%;
+}
+.hero__title {
+  margin-top: 5px;
+  font-size: 64px;
+  line-height: 78px;
 }
